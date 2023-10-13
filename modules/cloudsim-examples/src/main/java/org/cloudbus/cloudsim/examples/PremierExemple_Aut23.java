@@ -14,118 +14,75 @@ import org.cloudbus.cloudsim.provisioners.PeProvisionerSimple;
 import org.cloudbus.cloudsim.provisioners.RamProvisionerSimple;
 
 public class PremierExemple_Aut23 {
-	// la liste de cloudlets
 	private static List<Cloudlet> cloudletList;
-
-	/** The vmlists. */
 	private static List<Vm> vmlist;
-	private static int NbCloudlets =15;
-	public static void main(String[] args) {
-		Log.printLine("Starting premierExemple_Aut23..");
-		try {
+	private static final int NbCloudlets = 12;  // Updated number of cloudlets to 12
 
-			// Etape 1: Initialisation des paramètres de la simulation.
-			// Doit être faite avant la création des composantes du scénarios.
+	public static void main(String[] args) {
+		Log.printLine("Starting PremierExemple_Aut23..");
+		try {
 			int num_user = 1;
 			Calendar calendar = Calendar.getInstance();
 			boolean trace_flag = false;
 			CloudSim.init(num_user, calendar, trace_flag);
 
-			// Etape 2: Création de ou des centres de données
 			Datacenter datacenter0 = createDatacenter("Datacenter_0");
-
-			//Étape 3: Création du ou des brokers (un broker par client cloud)
 			DatacenterBroker broker = createBroker(1);
 			int brokerId = broker.getId();
 
-			//Étape 4: création des VMs pour chacun des clients cloud
+			vmlist = createVM(brokerId, 5, 1); // Updated number of VMs to 5
 
-			vmlist = new ArrayList<Vm>();
-
-			vmlist = createVM(brokerId, 8, 1);
-
-
-			//soumettre les listes de VMs aux brokers
 			broker.submitVmList(vmlist);
-
-
-			//Étape 5: Création des cloudlets (tâches à exécuter sur les VMs
-			cloudletList = createCloudlet(brokerId, NbCloudlets, 1); // creating 25 cloudlets
-
-			//soumettre les listes de cloudlets aux brokers
+			cloudletList = createCloudlet(brokerId, NbCloudlets, 1);
 			broker.submitCloudletList(cloudletList);
 
-			// Étape 6: lancer la simulation
 			CloudSim.startSimulation();
-
-			// Imprimer les résultats de la simulation
 			List<Cloudlet> newList1 = broker.getCloudletReceivedList();
-
 			CloudSim.stopSimulation();
 
-			Log.print("=============> User "+brokerId+"    ");
+			Log.print("=============> User " + brokerId + "    ");
 			printCloudletList(newList1);
-
 			Log.printLine("Simulation finished!");
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			Log.printLine("The simulation has been terminated due to an unexpected error");
 		}
 	}
 
-	private static Datacenter createDatacenter(String name){
-
-		// création des serveurs ou hôtes
+	private static Datacenter createDatacenter(String name) {
 		List<Host> hostList = new ArrayList<Host>();
-
-		// création de la liste des coeurs CPU (le nombre d'élements est le nombre de coeur CPU détenus par l'hôte)
 		List<Pe> peList = new ArrayList<Pe>();
-
-		int mips=1000; //puissance de CPU en termes de million d'instructions par seconde
-
-		peList.add(new Pe(0, new PeProvisionerSimple(mips))); // ID du coeur CPU (Pe pour processing element) et mips
-		peList.add(new Pe(1, new PeProvisionerSimple(mips)));
-		peList.add(new Pe(2, new PeProvisionerSimple(mips)));
-		peList.add(new Pe(3, new PeProvisionerSimple(mips)));
-
-
-		//Création des hôtess et leur ajout dans la liste hostList
-
+		int mips = 1000;
+		for (int i = 0; i < 4; i++) {  // Updated to 4 CPU cores
+			peList.add(new Pe(i, new PeProvisionerSimple(mips)));
+		}
 		int ram = 2048;
 		long storage = 1000000;
 		int bw = 10000;
-
-
-
-		for(int hostId=1;hostId<=3;hostId++){
+		for (int hostId = 1; hostId <= 2; hostId++) {  // Updated to 2 hosts
 			hostList.add(
-					new Host(
-							hostId,
-							new RamProvisionerSimple(ram),
-							new BwProvisionerSimple(bw),
-							storage,
-							peList,
-							new VmSchedulerTimeShared(peList)
-					)
+				new Host(
+					hostId,
+					new RamProvisionerSimple(ram),
+					new BwProvisionerSimple(bw),
+					storage,
+					new ArrayList<>(peList),  // Create a new list for each host
+					new VmSchedulerTimeShared(peList)
+				)
 			);
 		}
-
-		// Création du centre de données avec les caractéristiques suivantes
-		String arch = "x86";            // system architecture
-		String os = "Linux";            // operating system
-		String vmm = "Xen";             //virtualization monitor
-		double time_zone = 10.0;        // time zone this resource located
-		double cost = 3.0;              // the cost of using processing in this resource
-		double costPerMem = 0.05;		// the cost of using memory in this resource
-		double costPerStorage = 0.001;	// the cost of using storage in this resource
-		double costPerBw = 0.0;			// the cost of using bw in this resource
+		String arch = "x86";
+		String os = "Linux";
+		String vmm = "Xen";
+		double time_zone = 10.0;
+		double cost = 3.0;
+		double costPerMem = 0.05;
+		double costPerStorage = 0.001;
+		double costPerBw = 0.0;
 
 		LinkedList<Storage> storageList = new LinkedList<Storage>();
-
-
 		DatacenterCharacteristics characteristics = new DatacenterCharacteristics(
-				arch, os, vmm, hostList, time_zone, cost, costPerMem, costPerStorage, costPerBw);
+			arch, os, vmm, hostList, time_zone, cost, costPerMem, costPerStorage, costPerBw);
 
 		Datacenter datacenter = null;
 		try {
@@ -136,11 +93,10 @@ public class PremierExemple_Aut23 {
 		return datacenter;
 	}
 
-	private static DatacenterBroker createBroker(int id){
-
+	private static DatacenterBroker createBroker(int id) {
 		DatacenterBroker broker = null;
 		try {
-			broker = new DatacenterBroker("Broker"+id);
+			broker = new DatacenterBroker("Broker" + id);
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
@@ -150,71 +106,50 @@ public class PremierExemple_Aut23 {
 
 	private static List<Vm> createVM(int userId, int vms, int idShift) {
 		LinkedList<Vm> list = new LinkedList<Vm>();
-
 		long size = 10000;
 		int ram = 1024;
-		int mips = 250;
+		int mips = 500;  // Updated mips to 500
 		long bw = 1000;
-		int pesNumber = 2;
+		int pesNumber = 2;  // VMs with 2 CPU cores
 		String vmm = "Xen";
-
 		Vm[] vm = new Vm[vms];
-
-		for(int i=0;i<vms;i++){
+		for (int i = 0; i < vms; i++) {
 			vm[i] = new Vm(idShift + i, userId, mips, pesNumber, ram, bw, size, vmm, new CloudletSchedulerSpaceShared());
 			list.add(vm[i]);
 		}
 		return list;
 	}
 
-
-	private static List<Cloudlet> createCloudlet(int userId, int cloudlets, int idShift){
+	private static List<Cloudlet> createCloudlet(int userId, int cloudlets, int idShift) {
 		LinkedList<Cloudlet> list = new LinkedList<Cloudlet>();
-
-		//cloudlet parameters
-		long length = 1000;
+		long length = 3000;  // Updated length to 3000
 		long fileSize = 300;
 		long outputSize = 300;
 		int pesNumber = 1;
 		UtilizationModel utilizationModel = new UtilizationModelFull();
-
 		Cloudlet[] cloudlet = new Cloudlet[cloudlets];
-
-		for(int i=0;i<cloudlets;i++){
+		for (int i = 0; i < cloudlets; i++) {
 			cloudlet[i] = new Cloudlet(idShift + i, length, pesNumber, fileSize, outputSize, utilizationModel, utilizationModel, utilizationModel);
-			// setting the owner of these Cloudlets
 			cloudlet[i].setUserId(userId);
 			list.add(cloudlet[i]);
 		}
 		return list;
 	}
 
-	/**
-	 * Prints the Cloudlet objects
-	 * @param list  list of Cloudlets
-	 */
 	private static void printCloudletList(List<Cloudlet> list) throws IOException {
 		int size = list.size();
 		Cloudlet cloudlet;
-
 		String indent = "    ";
-
 		Log.printLine();
 		Log.printLine("========== OUTPUT ==========");
-		Log.printLine("Cloudlet ID" + indent + "STATUS" + indent +
-				"Data center ID" + indent + "VM ID" + indent + "Time" + indent + "Start Time" + indent + "Finish Time");
-
+		Log.printLine("Cloudlet ID" + indent + "STATUS" + indent + "Data center ID" + indent + "VM ID" + indent + "Time" + indent + "Start Time" + indent + "Finish Time");
 		DecimalFormat dft = new DecimalFormat("###.##");
 		for (int i = 0; i < size; i++) {
 			cloudlet = list.get(i);
 			Log.print(indent + cloudlet.getCloudletId() + indent + indent);
-
-			if (cloudlet.getCloudletStatus() == Cloudlet.SUCCESS){
+			if (cloudlet.getCloudletStatus() == Cloudlet.SUCCESS) {
 				Log.print("SUCCESS");
-
-				Log.printLine( indent + indent + cloudlet.getResourceId() + indent + indent + indent + cloudlet.getVmId() +
-						indent + indent + dft.format(cloudlet.getActualCPUTime()) + indent + indent + dft.format(cloudlet.getExecStartTime())+
-						indent + indent + dft.format(cloudlet.getFinishTime()));
+				Log.printLine(indent + indent + cloudlet.getResourceId() + indent + indent + indent + cloudlet.getVmId() + indent + indent + dft.format(cloudlet.getActualCPUTime()) + indent + indent + dft.format(cloudlet.getExecStartTime()) + indent + indent + dft.format(cloudlet.getFinishTime()));
 			}
 		}
 	}
