@@ -1,0 +1,112 @@
+/Users/satnam/Downloads/jdk-17.0.1.jdk/Contents/Home/bin/java -javaagent:/Users/satnam/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/232.9921.47/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57080:/Users/satnam/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/232.9921.47/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/satnam/Desktop/code/cloudsim-cloudsim-4.0/modules/cloudsim-examples/target/classes:/Users/satnam/Desktop/code/cloudsim-cloudsim-4.0/modules/cloudsim/target/classes:/Users/satnam/.m2/repository/com/opencsv/opencsv/3.7/opencsv-3.7.jar:/Users/satnam/.m2/repository/org/cloudsimplus/cloudsimplus/8.5.0/cloudsimplus-8.5.0.jar:/Users/satnam/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/satnam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/satnam/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/satnam/.m2/repository/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar:/Users/satnam/.m2/repository/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar:/Users/satnam/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/Users/satnam/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar org.cloudbus.cloudsim.examples.HorizontalScaling
+INFO
+================== Starting CloudSim Plus 8.5.0 ==================
+
+INFO  0.00: #Datacenter 1 is starting...
+INFO  Broker 2 is starting...
+INFO  Entities started.
+INFO  0.00: DatacenterBrokerSimple2: List of 1 datacenters(s) received.
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 0 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 1 inside #Datacenter 1
+INFO  0.00: HostSimple: Vm 0 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 0 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 1 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 1 has been allocated to Host 0/#DC 1
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 0 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 1 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 2 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 3 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 4 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 5 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 6 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 7 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 8 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 9 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 10 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 11 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 12 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 13 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 14 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 15 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 16 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 17 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 18 to Vm 0 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 19 to Vm 1 inside Host 0/#DC 1 in 0.00 seconds ().
+INFO  0.10: DatacenterBrokerSimple2: All 20 waiting Cloudlets submitted to some VM.
+INFO  5.10: HorizontalVmScalingSimpleVm 0: Requesting creation of Vm 2 to receive new Cloudlets in order to balance load of Vm 0. 0 CPU usage is 100.0%
+INFO  5.10: DatacenterBrokerSimple2: List of 1 VMs submitted to the broker during simulation execution. VMs creation request sent to Datacenter.
+INFO  5.10: DatacenterBrokerSimple2: Trying to create Vm 2 inside #Datacenter 1
+INFO  5.10: HorizontalVmScalingSimpleVm 1: Requesting creation of Vm 3 to receive new Cloudlets in order to balance load of Vm 1. 1 CPU usage is 100.0%
+INFO  5.10: DatacenterBrokerSimple2: List of 1 VMs submitted to the broker during simulation execution. VMs creation request sent to Datacenter.
+INFO  5.10: DatacenterBrokerSimple2: Trying to create Vm 3 inside #Datacenter 1
+INFO  5.10: HostSimple: Vm 2 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  5.10: VmAllocationPolicySimple: Vm 2 has been allocated to Host 0/#DC 1
+INFO  5.10: HostSimple: Vm 3 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  5.10: VmAllocationPolicySimple: Vm 3 has been allocated to Host 0/#DC 1
+INFO  100.12: DatacenterBrokerSimple2: Cloudlet 0 finished in Vm 0 and returned to broker.
+INFO  200.11: DatacenterBrokerSimple2: Cloudlet 1 finished in Vm 1 and returned to broker.
+INFO  280.33: DatacenterBrokerSimple2: Cloudlet 2 finished in Vm 0 and returned to broker.
+INFO  380.33: DatacenterBrokerSimple2: Cloudlet 3 finished in Vm 1 and returned to broker.
+INFO  440.37: DatacenterBrokerSimple2: Cloudlet 4 finished in Vm 0 and returned to broker.
+INFO  540.37: DatacenterBrokerSimple2: Cloudlet 5 finished in Vm 1 and returned to broker.
+INFO  580.52: DatacenterBrokerSimple2: Cloudlet 6 finished in Vm 0 and returned to broker.
+INFO  680.53: DatacenterBrokerSimple2: Cloudlet 7 finished in Vm 1 and returned to broker.
+INFO  700.59: DatacenterBrokerSimple2: Cloudlet 8 finished in Vm 0 and returned to broker.
+INFO  800.59: DatacenterBrokerSimple2: Cloudlet 10 finished in Vm 0 and returned to broker.
+INFO  800.59: DatacenterBrokerSimple2: Cloudlet 9 finished in Vm 1 and returned to broker.
+INFO  880.62: DatacenterBrokerSimple2: Cloudlet 12 finished in Vm 0 and returned to broker.
+INFO  900.66: DatacenterBrokerSimple2: Cloudlet 11 finished in Vm 1 and returned to broker.
+INFO  940.71: DatacenterBrokerSimple2: Cloudlet 14 finished in Vm 0 and returned to broker.
+INFO  980.64: DatacenterBrokerSimple2: Cloudlet 13 finished in Vm 1 and returned to broker.
+INFO  980.75: DatacenterBrokerSimple2: Cloudlet 16 finished in Vm 0 and returned to broker.
+INFO  1000.73: DatacenterBrokerSimple2: Cloudlet 18 finished in Vm 0 and returned to broker.
+INFO  1040.72: DatacenterBrokerSimple2: Cloudlet 15 finished in Vm 1 and returned to broker.
+INFO  1080.72: DatacenterBrokerSimple2: Cloudlet 17 finished in Vm 1 and returned to broker.
+INFO  1100.72: DatacenterBrokerSimple2: Cloudlet 19 finished in Vm 1 and returned to broker.
+INFO  1100.83: Processing last events before simulation shutdown.
+INFO  1100.83: DatacenterBrokerSimple2 is shutting down...
+INFO  1100.83: VmSimple: Requesting Vm 3 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  1100.83: VmSimple: Requesting Vm 2 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  1100.83: VmSimple: Requesting Vm 1 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  1100.83: VmSimple: Requesting Vm 0 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  1100.83: #Datacenter 1: Vm 3 destroyed on Host 0/#DC 1.
+INFO  1100.83: #Datacenter 1: Vm 2 destroyed on Host 0/#DC 1.
+INFO  1100.83: #Datacenter 1: Vm 1 destroyed on Host 0/#DC 1.
+INFO  1100.83: #Datacenter 1: Vm 0 destroyed on Host 0/#DC 1.
+INFO  Simulation: No more future events
+
+INFO  CloudInformationService0: Notify all CloudSim Plus entities to shutdown.
+
+INFO
+================== Simulation finished at time 1100.83 ==================
+
+
+
+                                               SIMULATION RESULTS
+
+|Cloudlet| Status|DC|Host|Host PEs |VM|   VM PEs|CloudletLen|FinishedLen|CloudletPEs|StartTime|FinishTime|ExecTime
+|--------|-------|--|----|---------|--|---------|-----------|-----------|-----------|---------|----------|--------
+|      ID|       |ID|  ID|CPU cores|ID|CPU cores|         MI|         MI|  CPU cores|  Seconds|   Seconds| Seconds
+|       0|SUCCESS| 1|   0|        8| 0|        2|      10000|      10000|          2|      0.1|     100.1|   100.0
+|       1|SUCCESS| 1|   0|        8| 1|        2|      20000|      20000|          2|      0.1|     200.1|   200.0
+|       2|SUCCESS| 1|   0|        8| 0|        2|      30000|      30000|          2|      0.1|     280.3|   280.2
+|       3|SUCCESS| 1|   0|        8| 1|        2|      40000|      40000|          2|      0.1|     380.3|   380.2
+|       4|SUCCESS| 1|   0|        8| 0|        2|      50000|      50000|          2|      0.1|     440.4|   440.3
+|       5|SUCCESS| 1|   0|        8| 1|        2|      60000|      60000|          2|      0.1|     540.4|   540.3
+|       6|SUCCESS| 1|   0|        8| 0|        2|      70000|      70000|          2|      0.1|     580.5|   580.4
+|       7|SUCCESS| 1|   0|        8| 1|        2|      80000|      80000|          2|      0.1|     680.5|   680.4
+|       8|SUCCESS| 1|   0|        8| 0|        2|      90000|      90000|          2|      0.1|     700.6|   700.5
+|      10|SUCCESS| 1|   0|        8| 0|        2|     110000|     110000|          2|      0.1|     800.6|   800.5
+|       9|SUCCESS| 1|   0|        8| 1|        2|     100000|     100000|          2|      0.1|     800.6|   800.5
+|      12|SUCCESS| 1|   0|        8| 0|        2|     130000|     130000|          2|      0.1|     880.6|   880.5
+|      11|SUCCESS| 1|   0|        8| 1|        2|     120000|     120000|          2|      0.1|     900.7|   900.6
+|      14|SUCCESS| 1|   0|        8| 0|        2|     150000|     150000|          2|      0.1|     940.7|   940.6
+|      13|SUCCESS| 1|   0|        8| 1|        2|     140000|     140000|          2|      0.1|     980.6|   980.5
+|      16|SUCCESS| 1|   0|        8| 0|        2|     170000|     170000|          2|      0.1|     980.7|   980.6
+|      18|SUCCESS| 1|   0|        8| 0|        2|     190000|     190000|          2|      0.1|    1000.7|  1000.6
+|      15|SUCCESS| 1|   0|        8| 1|        2|     160000|     160000|          2|      0.1|    1040.7|  1040.6
+|      17|SUCCESS| 1|   0|        8| 1|        2|     180000|     180000|          2|      0.1|    1080.7|  1080.6
+|      19|SUCCESS| 1|   0|        8| 1|        2|     200000|     200000|          2|      0.1|    1100.7|  1100.6
+
+
+Process finished with exit code 0

@@ -1,0 +1,664 @@
+/Users/satnam/Downloads/jdk-17.0.1.jdk/Contents/Home/bin/java -javaagent:/Users/satnam/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/232.9921.47/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56999:/Users/satnam/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/232.9921.47/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/satnam/Desktop/code/cloudsim-cloudsim-4.0/modules/cloudsim-examples/target/classes:/Users/satnam/Desktop/code/cloudsim-cloudsim-4.0/modules/cloudsim/target/classes:/Users/satnam/.m2/repository/com/opencsv/opencsv/3.7/opencsv-3.7.jar:/Users/satnam/.m2/repository/org/cloudsimplus/cloudsimplus/8.5.0/cloudsimplus-8.5.0.jar:/Users/satnam/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/satnam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/satnam/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/satnam/.m2/repository/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar:/Users/satnam/.m2/repository/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar:/Users/satnam/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/Users/satnam/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar org.cloudbus.cloudsim.examples.VerticalScaling
+INFO
+================== Starting CloudSim Plus 8.5.0 ==================
+
+INFO  0.00: #Datacenter 1 is starting...
+INFO  Broker 2 is starting...
+INFO  Entities started.
+INFO  0.00: DatacenterBrokerSimple2: List of 1 datacenters(s) received.
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 0 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 1 inside #Datacenter 1
+INFO  0.00: HostSimple: Vm 0 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 0 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 1 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 1 has been allocated to Host 0/#DC 1
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 0 to Vm 0 inside Host 0/#DC 1 in 5.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 1 to Vm 1 inside Host 0/#DC 1 in 10.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 2 to Vm 0 inside Host 0/#DC 1 in 15.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 3 to Vm 1 inside Host 0/#DC 1 in 20.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 4 to Vm 0 inside Host 0/#DC 1 in 25.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 5 to Vm 1 inside Host 0/#DC 1 in 30.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 6 to Vm 0 inside Host 0/#DC 1 in 35.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 7 to Vm 1 inside Host 0/#DC 1 in 40.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 8 to Vm 0 inside Host 0/#DC 1 in 45.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 9 to Vm 1 inside Host 0/#DC 1 in 50.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 10 to Vm 0 inside Host 0/#DC 1 in 55.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 11 to Vm 1 inside Host 0/#DC 1 in 60.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 12 to Vm 0 inside Host 0/#DC 1 in 65.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 13 to Vm 1 inside Host 0/#DC 1 in 70.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 14 to Vm 0 inside Host 0/#DC 1 in 75.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 15 to Vm 1 inside Host 0/#DC 1 in 80.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 16 to Vm 0 inside Host 0/#DC 1 in 85.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 17 to Vm 1 inside Host 0/#DC 1 in 90.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 18 to Vm 0 inside Host 0/#DC 1 in 95.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 19 to Vm 1 inside Host 0/#DC 1 in 100.00 seconds (requested submission delay).
+INFO  0.10: DatacenterBrokerSimple2: All 20 waiting Cloudlets submitted to some VM.
+		Time    0.1: Vm 0 CPU Usage:   0.00% ( 2 vCPUs. Running Cloudlets: #0). RAM usage: 100.00% (1000 MB)
+		Time    0.1: Vm 1 CPU Usage:   0.00% ( 2 vCPUs. Running Cloudlets: #0). RAM usage: 100.00% (1000 MB)
+		Time    5.1: Vm 0 CPU Usage: 100.00% ( 2 vCPUs. Running Cloudlets: #1). RAM usage: 100.00% (1000 MB)
+		Time    5.1: Vm 1 CPU Usage:   0.00% ( 2 vCPUs. Running Cloudlets: #0). RAM usage: 100.00% (1000 MB)
+INFO  10.10: DatacenterBrokerSimple2: Cloudlet 0 finished in Vm 0 and returned to broker.
+		Time   10.1: Vm 0 CPU Usage:   0.00% ( 2 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time   10.1: Vm 1 CPU Usage:   0.00% ( 3 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   10.2: Vm 0 CPU Usage:   0.00% ( 2 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time   10.2: Vm 1 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   15.1: Vm 0 CPU Usage:   0.00% ( 3 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   15.1: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   15.2: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   15.2: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   19.8: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   19.8: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   19.9: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   19.9: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.0: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.0: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.0: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.0: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+INFO  20.10: DatacenterBrokerSimple2: Cloudlet 1 finished in Vm 1 and returned to broker.
+		Time   20.1: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.1: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 2.00% (20 MB)
+		Time   20.1: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.1: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 2.00% (20 MB)
+		Time   20.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time   20.2: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+WARN  25.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   25.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time   25.1: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+WARN  25.21: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   25.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time   25.2: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+WARN  30.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  30.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   30.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time   30.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+WARN  30.21: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  30.21: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   30.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time   30.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+WARN  35.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  35.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   35.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   35.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+WARN  35.21: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  35.21: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   35.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   35.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+WARN  40.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  40.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   40.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   40.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+WARN  40.21: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  40.21: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   40.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   40.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   45.0: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   45.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+WARN  45.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  45.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   45.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   45.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+WARN  45.21: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  45.21: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   45.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   45.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   45.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   45.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+INFO  45.32: DatacenterBrokerSimple2: Cloudlet 2 finished in Vm 0 and returned to broker.
+WARN  45.32: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   45.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 4.00% (40 MB)
+		Time   45.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+WARN  45.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   45.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   45.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+WARN  50.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   50.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   50.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+WARN  50.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   50.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time   50.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+WARN  55.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  55.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   55.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   55.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+WARN  55.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  55.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   55.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   55.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+WARN  60.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  60.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   60.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   60.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+WARN  60.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  60.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   60.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time   60.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+WARN  65.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  65.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   65.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time   65.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+WARN  65.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  65.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   65.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time   65.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+WARN  70.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  70.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   70.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time   70.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+WARN  70.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  70.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   70.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time   70.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+WARN  75.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  75.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   75.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time   75.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+WARN  75.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  75.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   75.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time   75.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+WARN  80.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  80.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   80.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time   80.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+WARN  80.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  80.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   80.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time   80.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+WARN  85.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  85.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   85.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time   85.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+WARN  85.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  85.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   85.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time   85.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+WARN  90.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  90.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   90.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time   90.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  90.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  90.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   90.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time   90.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  95.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  95.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   95.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   95.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  95.43: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  95.43: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time   95.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   95.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+INFO  96.68: DatacenterBrokerSimple2: Cloudlet 3 finished in Vm 1 and returned to broker.
+		Time   96.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 8.00% (80 MB)
+		Time   96.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time   96.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+WARN  100.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  100.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  100.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  100.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  100.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  100.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  100.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  100.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  105.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  105.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  105.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  105.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  105.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  105.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  105.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  105.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  110.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  110.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  110.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  110.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  110.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  110.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  110.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  110.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  115.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  115.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  115.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  115.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  115.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  115.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  115.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  115.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  120.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  120.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  120.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  120.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  120.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  120.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  120.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  120.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  125.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  125.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  125.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  125.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  125.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  125.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  125.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  125.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  130.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  130.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  130.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  130.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  130.79: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  130.79: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  130.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  130.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  135.10: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  135.10: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  135.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  135.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  135.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  135.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  135.86: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  135.86: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  135.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  135.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  135.97: VerticalVmScalingSimple: Vm 0 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+WARN  135.97: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  136.0: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  136.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+INFO  136.08: DatacenterBrokerSimple2: Cloudlet 4 finished in Vm 0 and returned to broker.
+		Time  136.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 8.00% (80 MB)
+		Time  136.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  136.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  136.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  140.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  140.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  140.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  145.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  145.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  145.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  150.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  150.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  150.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  155.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  155.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  155.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  160.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  160.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  160.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  165.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  165.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  165.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  170.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  170.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  170.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  175.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  175.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  175.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  180.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  180.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  180.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  185.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  185.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  185.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  190.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  190.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  190.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+WARN  195.19: VerticalVmScalingSimple: Vm 1 requested more 1 of Processor capacity but the Host 0/#DC 1 has just 0 of available Processor
+		Time  195.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  195.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  197.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  197.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  197.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  197.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+		Time  197.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  197.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #8). RAM usage: 8.00% (80 MB)
+INFO  197.62: DatacenterBrokerSimple2: Cloudlet 5 finished in Vm 1 and returned to broker.
+		Time  197.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  197.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 8.00% (80 MB)
+		Time  197.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  197.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  200.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  200.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  205.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  205.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  210.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  210.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  215.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  215.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  220.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  220.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  225.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  225.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  230.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  230.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  235.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  235.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  240.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  240.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  240.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  240.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  241.0: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  241.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  241.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  241.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+INFO  241.20: DatacenterBrokerSimple2: Cloudlet 6 finished in Vm 0 and returned to broker.
+		Time  241.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 7.00% (70 MB)
+		Time  241.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  241.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  241.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  245.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  245.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  250.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  250.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  255.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  255.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  260.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  260.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  265.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  265.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  270.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  270.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  275.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  275.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  280.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  280.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  285.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  285.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  290.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  290.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  295.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  295.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  300.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  300.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  302.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  302.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  302.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  302.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  302.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  302.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+		Time  302.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  302.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #7). RAM usage: 7.00% (70 MB)
+INFO  302.64: DatacenterBrokerSimple2: Cloudlet 7 finished in Vm 1 and returned to broker.
+		Time  302.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  302.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 7.00% (70 MB)
+		Time  302.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  302.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  305.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  305.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  310.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  310.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  315.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  315.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  320.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  320.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  325.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  325.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  329.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  329.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  330.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  330.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  330.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  330.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+INFO  330.81: DatacenterBrokerSimple2: Cloudlet 8 finished in Vm 0 and returned to broker.
+		Time  330.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 6.00% (60 MB)
+		Time  330.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  330.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  330.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  335.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  335.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  340.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  340.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  345.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  345.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  350.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  350.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  355.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  355.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  360.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  360.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  365.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  365.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  370.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  370.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  375.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  375.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  380.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  380.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  382.0: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  382.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  382.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  382.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+		Time  383.0: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  383.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #6). RAM usage: 6.00% (60 MB)
+INFO  383.12: DatacenterBrokerSimple2: Cloudlet 9 finished in Vm 1 and returned to broker.
+		Time  383.1: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  383.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 6.00% (60 MB)
+		Time  383.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  383.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  385.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  385.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.3: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.3: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+INFO  389.76: DatacenterBrokerSimple2: Cloudlet 10 finished in Vm 0 and returned to broker.
+		Time  389.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 5.00% (50 MB)
+		Time  389.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  389.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  389.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  390.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  390.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  395.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  395.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  400.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  400.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  405.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  405.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  410.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  410.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  415.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  415.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  420.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  420.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  425.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  425.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  430.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  430.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  435.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  435.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  438.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  438.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  438.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  438.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  439.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  439.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  439.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  439.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+INFO  439.80: DatacenterBrokerSimple2: Cloudlet 12 finished in Vm 0 and returned to broker.
+		Time  439.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 4.00% (40 MB)
+		Time  439.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  439.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  439.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  440.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  440.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  444.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  444.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  444.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  444.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  445.4: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  445.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+		Time  445.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  445.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #5). RAM usage: 5.00% (50 MB)
+INFO  445.65: DatacenterBrokerSimple2: Cloudlet 11 finished in Vm 1 and returned to broker.
+		Time  445.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  445.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 5.00% (50 MB)
+		Time  445.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  445.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  450.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  450.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  455.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  455.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  460.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  460.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  465.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  465.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  470.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  470.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  474.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  474.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  475.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  475.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+INFO  475.75: DatacenterBrokerSimple2: Cloudlet 14 finished in Vm 0 and returned to broker.
+		Time  475.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 3.00% (30 MB)
+		Time  475.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  475.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  475.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  480.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  480.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  485.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  485.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  490.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  490.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  492.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  492.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  492.9: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  492.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  493.5: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  493.5: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+		Time  493.6: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  493.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #4). RAM usage: 4.00% (40 MB)
+INFO  493.70: DatacenterBrokerSimple2: Cloudlet 13 finished in Vm 1 and returned to broker.
+		Time  493.7: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  493.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 4.00% (40 MB)
+		Time  493.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  493.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  495.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  495.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  498.2: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  498.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  498.8: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  498.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  499.0: Vm 0 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  499.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+INFO  499.12: DatacenterBrokerSimple2: Cloudlet 16 finished in Vm 0 and returned to broker.
+		Time  499.1: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 2.00% (20 MB)
+		Time  499.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  499.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  499.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  500.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  500.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  505.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  505.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  510.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  510.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  515.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  515.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  520.2: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  520.2: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  521.6: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  521.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  521.9: Vm 0 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  521.9: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+INFO  521.98: DatacenterBrokerSimple2: Cloudlet 18 finished in Vm 0 and returned to broker.
+		Time  522.0: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  522.0: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  522.1: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  522.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  525.1: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  525.1: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  528.4: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  528.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+		Time  528.6: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  528.6: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #3). RAM usage: 3.00% (30 MB)
+INFO  528.67: DatacenterBrokerSimple2: Cloudlet 15 finished in Vm 1 and returned to broker.
+		Time  528.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  528.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 3.00% (30 MB)
+		Time  528.8: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  528.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  530.8: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  530.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  535.8: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  535.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  540.8: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  540.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  545.8: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  545.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  550.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  550.7: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  550.8: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  550.8: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+		Time  551.4: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  551.4: Vm 1 CPU Usage: 100.00% ( 4 vCPUs. Running Cloudlets: #2). RAM usage: 2.00% (20 MB)
+INFO  551.54: DatacenterBrokerSimple2: Cloudlet 17 finished in Vm 1 and returned to broker.
+		Time  551.5: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  551.5: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 2.00% (20 MB)
+		Time  551.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  551.7: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  555.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  555.7: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  560.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  560.7: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  565.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  565.7: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  570.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  570.7: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  573.6: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  573.6: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  573.7: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  573.7: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+		Time  574.3: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  574.3: Vm 1 CPU Usage:  50.00% ( 4 vCPUs. Running Cloudlets: #1). RAM usage: 1.00% (10 MB)
+INFO  574.39: DatacenterBrokerSimple2: Cloudlet 19 finished in Vm 1 and returned to broker.
+		Time  574.4: Vm 0 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+		Time  574.4: Vm 1 CPU Usage:   0.00% ( 4 vCPUs. Running Cloudlets: #0). RAM usage: 1.00% (10 MB)
+INFO  574.50: Processing last events before simulation shutdown.
+INFO  574.50: DatacenterBrokerSimple2 is shutting down...
+INFO  574.50: VmSimple: Requesting Vm 1 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  574.50: VmSimple: Requesting Vm 0 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  574.50: #Datacenter 1: Vm 1 destroyed on Host 0/#DC 1.
+INFO  574.50: #Datacenter 1: Vm 0 destroyed on Host 0/#DC 1.
+INFO  Simulation: No more future events
+
+INFO  CloudInformationService0: Notify all CloudSim Plus entities to shutdown.
+
+INFO
+================== Simulation finished at time 574.50 ==================
+
+
+
+                                               SIMULATION RESULTS
+
+|Cloudlet| Status|DC|Host|Host PEs |VM|   VM PEs|CloudletLen|FinishedLen|CloudletPEs|StartTime|FinishTime|ExecTime
+|--------|-------|--|----|---------|--|---------|-----------|-----------|-----------|---------|----------|--------
+|      ID|       |ID|  ID|CPU cores|ID|CPU cores|         MI|         MI|  CPU cores|  Seconds|   Seconds| Seconds
+|       0|SUCCESS| 1|   0|        8| 0|        4|      10000|      10000|          2|      5.1|      10.1|     5.0
+|       2|SUCCESS| 1|   0|        8| 0|        4|      30000|      30000|          2|     15.1|      45.3|    30.2
+|       4|SUCCESS| 1|   0|        8| 0|        4|      50000|      50000|          2|     25.1|     136.1|   111.0
+|       6|SUCCESS| 1|   0|        8| 0|        4|      70000|      70000|          2|     35.1|     241.2|   206.1
+|       8|SUCCESS| 1|   0|        8| 0|        4|      90000|      90000|          2|     45.1|     330.8|   285.7
+|      10|SUCCESS| 1|   0|        8| 0|        4|     110000|     110000|          2|     55.1|     389.8|   334.7
+|      12|SUCCESS| 1|   0|        8| 0|        4|     130000|     130000|          2|     65.1|     439.8|   374.7
+|      14|SUCCESS| 1|   0|        8| 0|        4|     150000|     150000|          2|     75.1|     475.7|   400.6
+|      16|SUCCESS| 1|   0|        8| 0|        4|     170000|     170000|          2|     85.1|     499.1|   414.0
+|      18|SUCCESS| 1|   0|        8| 0|        4|     190000|     190000|          2|     95.1|     522.0|   426.9
+|       1|SUCCESS| 1|   0|        8| 1|        4|      20000|      20000|          2|     10.1|      20.1|    10.0
+|       3|SUCCESS| 1|   0|        8| 1|        4|      40000|      40000|          2|     20.1|      96.7|    76.6
+|       5|SUCCESS| 1|   0|        8| 1|        4|      60000|      60000|          2|     30.1|     197.6|   167.5
+|       7|SUCCESS| 1|   0|        8| 1|        4|      80000|      80000|          2|     40.1|     302.6|   262.5
+|       9|SUCCESS| 1|   0|        8| 1|        4|     100000|     100000|          2|     50.1|     383.1|   333.0
+|      11|SUCCESS| 1|   0|        8| 1|        4|     120000|     120000|          2|     60.1|     445.7|   385.6
+|      13|SUCCESS| 1|   0|        8| 1|        4|     140000|     140000|          2|     70.1|     493.7|   423.6
+|      15|SUCCESS| 1|   0|        8| 1|        4|     160000|     160000|          2|     80.1|     528.7|   448.6
+|      17|SUCCESS| 1|   0|        8| 1|        4|     180000|     180000|          2|     90.1|     551.5|   461.4
+|      19|SUCCESS| 1|   0|        8| 1|        4|     200000|     200000|          2|    100.1|     574.4|   474.3
+
+
+Process finished with exit code 0
