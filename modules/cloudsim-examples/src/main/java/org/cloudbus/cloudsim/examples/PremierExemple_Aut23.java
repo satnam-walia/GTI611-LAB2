@@ -56,7 +56,7 @@ public class PremierExemple_Aut23 {
 		for (int i = 0; i < 4; i++) {  // Updated to 4 CPU cores
 			peList.add(new Pe(i, new PeProvisionerSimple(mips)));
 		}
-		int ram = 2048;
+		int ram = 3096; //changement
 		long storage = 1000000;
 		int bw = 10000;
 		for (int hostId = 1; hostId <= 2; hostId++) {  // Updated to 2 hosts
@@ -67,7 +67,7 @@ public class PremierExemple_Aut23 {
 					new BwProvisionerSimple(bw),
 					storage,
 					new ArrayList<>(peList),  // Create a new list for each host
-					new VmSchedulerTimeShared(peList)
+					new VmSchedulerSpaceShared(peList)
 				)
 			);
 		}
@@ -114,7 +114,7 @@ public class PremierExemple_Aut23 {
 		String vmm = "Xen";
 		Vm[] vm = new Vm[vms];
 		for (int i = 0; i < vms; i++) {
-			vm[i] = new Vm(idShift + i, userId, mips, pesNumber, ram, bw, size, vmm, new CloudletSchedulerSpaceShared());
+			vm[i] = new Vm(idShift + i, userId, mips, pesNumber, ram, bw, size, vmm, new CloudletSchedulerTimeShared());
 			list.add(vm[i]);
 		}
 		return list;
